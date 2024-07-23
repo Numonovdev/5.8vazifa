@@ -2,21 +2,21 @@ const wrapper = document.getElementById('wrapper');
 const loader = document.querySelector('#loader');
 const img = document.getElementById('img');
 
-img.addEventListener('click', function(event){
-event.preventDefault();
-img.style.position = 'absolute';
-img.style.width = '850px'
-img.style.top = '10px'
-img.style.left= '200px'
-img.style.zIndex = '10'
-});
-img.addEventListener('dblclick', function(eve){
-eve.preventDefault();
-img.style.position = 'relative'
-img.style.width = '50%'
-img.style.top = '0px'
-img.style.left= '0px'
-})
+// img.addEventListener('click', function(event){
+// event.preventDefault();
+// img.style.position = 'absolute';
+// img.style.width = '850px'
+// img.style.top = '10px'
+// img.style.left= '200px'
+// img.style.zIndex = '10'
+// });
+// img.addEventListener('dblclick', function(eve){
+// eve.preventDefault();
+// img.style.position = 'relative'
+// img.style.width = '50%'
+// img.style.top = '0px'
+// img.style.left= '0px'
+// })
 function createruser(user){
      return `
        <div class="card">
